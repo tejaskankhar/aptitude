@@ -54,9 +54,9 @@ def get_row(y):
     else:
         return '10'
 
-imgGrey1 = cv2.imread('testcase2.py/Bhaskar (1).jpg')
-imgGrey2 = cv2.imread('testcase2.py/Ganshyam (1).jpg')
-imgGrey3= cv2.imread('testcase2.py/Raghav (1).jpg')
+imgGrey1 = cv2.imread('Bhaskar (1).jpg')
+imgGrey2 = cv2.imread('Ganshyam (1).jpg')
+imgGrey3= cv2.imread('Raghav (1).jpg')
 
 gray1 = cv2.cvtColor(imgGrey1, cv2.COLOR_BGR2GRAY)
 gray1 = cv2.resize(gray1, (500, 500))
